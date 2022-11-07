@@ -1,0 +1,19 @@
+.hostPicture {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+.host {
+  display: flex;
+  align-items: center;
+  width: 167px;
+  gap: 0 10px;
+
+  color: #ff6060;
+}
+.hostLabel {
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+  font-size: 18px;
+}

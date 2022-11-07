@@ -1,0 +1,19 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  max-width: 1240px;
+  margin: auto;
+  padding: 56px 0;
+  gap: 56px 50px;
+
+  background-color: #f7f7f7;
+}
+
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1240px;
+  margin: auto;
+}

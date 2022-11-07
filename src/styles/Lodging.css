@@ -1,0 +1,55 @@
+.lodgingContainer {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1240px;
+  margin: auto;
+  padding: 30px 0 24px 0;
+}
+
+.lodgingTitle {
+  font-size: 36px;
+
+  color: #ff6060;
+}
+.lodgingLocation {
+  font-size: 18px;
+  margin-bottom: 20px;
+
+  color: #ff6060;
+}
+
+.host {
+  margin-bottom: 24px;
+}
+
+.lodgingCollapseContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.lodgingCollapse {
+  display: flex;
+  flex-direction: column;
+  width: 582px;
+  gap: 31px 0;
+}
+.tags {
+  display: flex;
+  width: 115px;
+  height: 25px;
+  gap: 0 10px;
+}
+.tag {
+  display: flex;
+
+  border-radius: 10px;
+
+  font-size: 14px;
+  padding: 0.25em 2em;
+
+  color: white;
+  background: #ff6060;
+}
