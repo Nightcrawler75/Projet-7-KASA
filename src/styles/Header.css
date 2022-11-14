@@ -1,56 +1,15 @@
-/*.homeLink {
-  position: absolute;
-  left: 80%;
-  right: 18.96%;
-  top: 5.57%;
-  bottom: 91.11%;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 142.6%;
-
-  display: flex;
-  align-items: flex-end;
-  text-align: right;
-
-  text-decoration: none;
-  color: #ff6060;
-}
-.aboutLink {
-  position: absolute;
-  left: 87%;
-  right: 6.94%;
-  top: 5.57%;
-  bottom: 91.11%;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 142.6%;
-
-  display: flex;
-  align-items: flex-end;
-  text-align: right;
-
-  text-decoration: none;
-  color: #ff6060;
-}*/
-
 .headerContainer {
   display: flex;
   max-width: 1240px;
   margin: auto;
-  padding: 2% 7% 0;
+  padding: 2% 0% 0;
   justify-content: space-between;
 }
 .linkContainer {
   display: flex;
   width: 16em;
   align-items: center;
-  /*justify-content: flex-end;*/
+  justify-content: flex-end;
   gap: 13%;
   /*padding: 2% 7% 0 0;*/
 }
@@ -72,4 +31,13 @@
 .link:hover {
   border-bottom: solid 2px #ff6060;
   cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .link {
+    font-size: 12px;
+  }
+  .headerLogo {
+    width: 145px;
+  }
 }

@@ -17,3 +17,13 @@
   text-align: end;
   font-size: 18px;
 }
+
+@media screen and (max-width: 680px) {
+  .hostPicture {
+    height: 32px;
+    width: 32px;
+  }
+  .hostLabel {
+    font-size: 12px;
+  }
+}

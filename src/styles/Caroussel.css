@@ -32,3 +32,16 @@
   height: 100%;
   object-fit: cover;
 }
+@media screen and (max-width: 680px) {
+  .next {
+    width: 11.67px;
+    margin-right: 0.729em;
+  }
+  .back {
+    width: 11.67px;
+    margin-left: 0.729em;
+  }
+  .carousselContainer {
+    height: 255px;
+  }
+}
