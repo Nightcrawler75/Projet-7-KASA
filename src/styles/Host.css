@@ -5,6 +5,7 @@
 }
 .host {
   display: flex;
+  justify-content: end;
   align-items: center;
   width: 167px;
   gap: 0 10px;

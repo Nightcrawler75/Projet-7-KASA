@@ -34,7 +34,7 @@
 .lodgingCollapse {
   display: flex;
   flex-direction: column;
-  width: 582px;
+  width: 100%;
   gap: 31px 0;
 }
 .tags {

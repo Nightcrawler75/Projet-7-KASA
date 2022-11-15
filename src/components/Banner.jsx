@@ -1,10 +1,10 @@
 import "../styles/Banner.css";
 
-const Banner = ({ children, src }) => {
+const Banner = ({ children }) => {
   return (
-    <div className={children ? "banner" : "banner emptyBanner"}>
+    <div className={children ? "banner" : "emptyBanner"}>
       <div className="bannerFilter" />
-      <img alt="banner" className="bannerImg" src={src}></img>
+      <div className="bannerImg img"></div>
       <div className="bannerTxt">{children}</div>
     </div>
   );
