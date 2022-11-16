@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div className="cardContainer">
         {lodgings.map((lodging) => (
-          <Card lodgingId={lodging.id} src={lodging.cover}>
+          <Card key={lodging.id} lodgingId={lodging.id} src={lodging.cover}>
             {lodging.title}
           </Card>
         ))}
