@@ -7,7 +7,7 @@
   flex-direction: column;
   max-width: 1023px;
   margin: auto;
-  gap: 31px 31px;
+  gap: 31px 0;
 }
 .collapse {
   display: flex;
@@ -43,7 +43,9 @@
 .uncollapsed {
   height: 100%;
 }
-
+.collapseTitle {
+  font-size: 24px;
+}
 @media screen and (max-width: 680px) {
   .collapseTxt {
     font-size: 12px;
@@ -59,5 +61,8 @@
   }
   .lodgingCollapseContainer {
     flex-direction: column;
+  }
+  .collapseTitle {
+    font-size: 12px;
   }
 }
