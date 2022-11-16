@@ -14,7 +14,7 @@ const Collapse = ({ title, children }) => {
         </button>
       </div>
       <div className={collapsed ? "collapsed" : "uncollapsed"}>
-        <p className="collapseTxt">{children}</p>
+        <div className="collapseTxt">{children}</div>
       </div>
     </>
   );
